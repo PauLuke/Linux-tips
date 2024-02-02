@@ -2,25 +2,25 @@ How to use an appimage as a native program?
 
 Actually, there is at least two ways of doing that. The easy one is simply installing [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) and then opening the intended appimage file. Doing that you will automatically be asked to integrate the appimage in your system.  
 
-1) Create a folder in `~/.local/share/applications/` for the appimage:  
+But if you like to make things manually follow the process bellow:
 
-`mkdir ~/.local/share/applications/appimages`
+1) I suggest the creation of a folder in `~/.local/share/applications/` for the appimage:  
 
-2) Create a folder in ~/.local/share/applications/appimage/ for the icons:
+`mkdir ~/.local/share/applications/appimages/`
 
-`mkdir ~/.local/share/applications/appimages/icons`
+2) I also recommend the creation of a folder in `~/.local/share/applications/appimage/` for the icons:
 
-3) Put the appimage in that folder:
+`mkdir ~/.local/share/applications/appimages/icons/`
 
-`mv ~/.local/share/applications/appimages/appimage_name`
+3) Now put the appimage in the folder designated folder:
 
-4) Create a ".desktop" file at `~/.local/share/applications`:
+`mv ~/.local/share/applications/appimages/ [appimage_path]`
 
-```
-cd ~/.local/share/applications && touch appimage_name.desktop
-```
+4) Create a ".desktop" file at `~/.local/share/applications/`:
 
-5) Edit the created file putting the text bellow:
+`touch ~/.local/share/applications/[appimage_name.desktop]`
+
+5) Copy and paste the text bellow in the newly created ".desktop" file:
 
 ```
 [Desktop Entry]
@@ -35,9 +35,7 @@ Name=program_name
 Icon=~/.local/share/applications/appimages/icons/icon_name
 ```
 
-6) Update de database:
+6) Update the applications database to see the results:
 
-```
-update-desktop-database ~/.local/share/applications
-```
+`update-desktop-database ~/.local/share/applications`
 
