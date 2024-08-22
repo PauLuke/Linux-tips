@@ -7,5 +7,5 @@ For emojis and Asian fonts in linux install:
 **Command:**
 
 ```
-yay -S noto-fonts-cjk noto-fonts-emoji ttf-font-awesome
+sudo pacman -Sy noto-fonts-cjk noto-fonts-emoji ttf-font-awesome
 ```
