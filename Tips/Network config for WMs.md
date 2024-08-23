@@ -1,6 +1,10 @@
 After installation, you should start/enable NetworkManager.service and disable iwd.service (or any other service that wants to configure the network, in order to avoid conflict).
 
-It's a good idea to add ``nm-applet``` to your autostart. It will make a icon appear in your tray and will enable you to configure your network using a graphical interface.
+It's a good idea to add nm-applet to your autostart. It will make a icon appear in your tray and will enable you to configure your network using a graphical interface. Ex.:
+
+```
+exec-once nm-applet &
+```
 
 NetworkManager comes with nmcli (command line) and nmtui (graphical interface).
 
