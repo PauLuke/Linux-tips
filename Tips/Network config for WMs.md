@@ -8,13 +8,16 @@ exec-once nm-applet &
 
 NetworkManager comes with nmcli (command line) and nmtui (graphical interface).
 
-## nmcli usage examples:
+**nmcli usage examples:**
 
-**List nearby Wi-Fi networks:**
+1. List nearby Wi-Fi networks:
 
+```
 nmcli device wifi list
+```
 
-**Connect to a Wi-Fi network:**
+2. Connect to a Wi-Fi network:
 
+```
 nmcli device wifi connect *SSID_or_BSSID* password *password*
-
+```
