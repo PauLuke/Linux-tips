@@ -1,0 +1,18 @@
+- paru
+- firefox
+- anytype
+- eog (eyes of gnome)
+- TLP
+- proton-pass
+- Foliate
+- mpv
+- qbittorrent
+- localsend
+- gimp
+- micro
+- fish
+- calibre
+- nautilus
+- gnome-text-editor
+- shotcut
+- upscayl
