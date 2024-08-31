@@ -1,17 +1,14 @@
-1. Edit the ```fish_greeting``` function:
-
+1. The fish shell has a builtin function called "fish_greeting" that is reponsable for prompt the user with a greeting message every time he opens the terminal. In order to change that we should edit the function, so type:
 ```
 function fish_greeting
 ```
 
-2. We want this function to do nothing, so only we will not put any command, only end it. Type:
-
+2. Now we have to writte a command, but as we don't want this function to do nothing, we will only type "end" and press `ENTER`:
 ```
 end
 ```
 
-3. Save the function:
-
+3. Finally, we just save the function to never see that greeting message ever again:
 ```
 funcsave fish_greeting
 ```
