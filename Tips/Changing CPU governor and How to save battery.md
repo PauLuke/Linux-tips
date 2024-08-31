@@ -5,7 +5,7 @@ To install the *cpupower* package you can run:
 # pacman -S cpupower
 ```
 
-Here is a example of how to define the governor of all cores of ypur CPU to *powersave* governor:
+Here is a example of how to define the governor of all cores of your CPU to *powersave* governor:
 ```
 sudo cpupower -c all frequency-set -g powersave
 ```
