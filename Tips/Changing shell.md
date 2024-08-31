@@ -1,11 +1,9 @@
-1. To list all installed shells, run:
-
+To list all shells installed on your system, run:
 ```
 chsh -l
 ```
 
-2. And to set one as default for your user do:
-
+To set a new shell as the default for your user, do:
 ```
 chsh -s _full-path-to-shell_
 ```
