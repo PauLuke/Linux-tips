@@ -1,18 +1,18 @@
 How to use an appimage as a native program?  
 
-Actually, there is at least two ways of doing that. The easy one is simply installing [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) and then opening the intended appimage file. Doing that you will automatically be asked to integrate the appimage in your system.  
+Actually, there are at least two ways to do this. The easiest one is to installing [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) and let it handle all the work. When you execute a *appimage* file, *AppImageLauncher* will automatically ask you to integrate this *appimage* to your system. That's it.
 
-But if you like to make things manually follow the process bellow:
+But if you like to make things manually, follow the process bellow:
 
-1) I suggest the creation of a folder in `~/.local/share/applications/` for the appimage:  
+1) I recommend creating a dedicated folder to store your AppImages. This will help keep everything organized in one place. This is a example of what you can do:
 
 `mkdir ~/.local/share/applications/appimages/`
 
-2) I also recommend the creation of a folder in `~/.local/share/applications/appimage/` for the icons:
+2) I also suggest creating a folder for the icons you'll use:
 
 `mkdir ~/.local/share/applications/appimages/icons/`
 
-3) Now put the appimage in the folder designated folder:
+3) You can now place your AppImages in the folder you created:
 
 `mv ~/.local/share/applications/appimages/ [appimage_path]`
 
