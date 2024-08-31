@@ -5,5 +5,5 @@ chsh -l
 
 To set a new shell as the default for your user, do:
 ```
-chsh -s _full-path-to-shell_
+chsh -s [full-path-to-shell]
 ```
