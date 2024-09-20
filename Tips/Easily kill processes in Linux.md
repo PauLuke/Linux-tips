@@ -15,3 +15,4 @@ Example usage:
 ```
 kill -9 [PID]
 ```
+For a more detailed explanation on killing processes in Linux read [this](https://builtin.com/articles/kill-process-linux).
