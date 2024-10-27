@@ -1,18 +1,18 @@
-AUR helper: `paru` or `yay`
-Browser: `brave` or `firefox`
-Note taking: `obsidian` or `anytype`
-Password management: `proton-pass`
-Ebook reader: `foliate`
-Ebook editor: `calibre`
-Torrent client: `qbittorrent`
-Video player: `mpv` or `vlc`
-Image editor: `gimp` and `inkscape`
-Video editor: `shotcut`
-File transfer: `localsend`
-Shell: `fish`
-Text editor: `gnome-text-editor` or `gedit`
-Terminal text editor: `micro`
-File manager: `nautilus`
-Image viewer: `eog` (eyes of gnome) or `gthumb`
-Power management: TLP
-Image upscale: `upscayl`
+- AUR helper: `paru` or `yay`
+- Browser: `brave` or `firefox`
+- Note taking: `obsidian` or `anytype`
+- Password management: `proton-pass`
+- Ebook reader: `foliate`
+- Ebook editor: `calibre`
+- Torrent client: `qbittorrent`
+- Video player: `mpv` or `vlc`
+- Image editor: `gimp` and `inkscape`
+- Video editor: `shotcut`
+- File transfer: `localsend`
+- Shell: `fish`
+- Text editor: `gnome-text-editor` or `gedit`
+- Terminal text editor: `micro`
+- File manager: `nautilus`
+- Image viewer: `eog` (eyes of gnome) or `gthumb`
+- Power management: TLP
+- Image upscale: `upscayl`
