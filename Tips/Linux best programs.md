@@ -3,7 +3,7 @@
 - Note taking: `obsidian` or `anytype`
 - Password management: `proton-pass`
 - Ebook reader: `foliate`
-- Ebook editor: `calibre`
+- Kindle: `calibre` and `k2pdfopt`
 - Torrent client: `qbittorrent`
 - Video player: `mpv` or `vlc`
 - Image editor: `gimp` and `inkscape`
