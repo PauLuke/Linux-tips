@@ -1,9 +1,9 @@
 - AUR helper: `paru` or `yay`
 - Browser: `brave` or `firefox`
-- Note taking: `obsidian` or `anytype`
+- Note taking: `obsidian` or `anytype` (currently unstable)
 - Password management: `proton-pass`
 - Ebook reader: `foliate`
-- Kindle: `calibre` and `k2pdfopt`
+- Ebooks and comics: `calibre` and `kcc`
 - Torrent client: `qbittorrent`
 - Video player: `mpv` or `vlc`
 - Image editor: `gimp` and `inkscape`
@@ -16,3 +16,4 @@
 - Image viewer: `eog` (eyes of gnome) or `gthumb`
 - Power management: TLP
 - Image upscale: `upscayl`
+- Audio control: `pavucontrol`
