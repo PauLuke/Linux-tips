@@ -1,6 +1,6 @@
 - AUR helper: `paru` or `yay`
 - Browser: `brave` or `firefox`
-- Note taking: `obsidian` or `anytype` (currently unstable)
+- Note taking: `obsidian` (plus Remotly Save plugin) or `anytype` (currently unstable)
 - Password management: `proton-pass`
 - Ebook reader: `foliate`
 - Ebooks and comics: `calibre` and `kcc`
