@@ -8,7 +8,7 @@ Flatpak stores .desktop launcher files in specific directories. On most systems,
 /var/lib/flatpak/exports/share/applications/
 ```
 
-(If you’re on a single-user setup, also check: ~/.local/share/flatpak/exports/share/applications/)
+(If you’re on a single-user setup, also check: `~/.local/share/flatpak/exports/share/applications/`)
 
 2. Find your browser’s .desktop file
 Look for the file that corresponds to your browser, such as org.mozilla.firefox.desktop or similar.
