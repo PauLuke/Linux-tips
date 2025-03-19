@@ -1,14 +1,20 @@
-The following is from the Arch Wiki:
+# Pacman Cache Management
 
-Pacman stores its downloaded packages in /var/cache/pacman/pkg/ and does not remove the old or uninstalled versions automatically. This has some advantages:
+Pacman stores downloaded packages in `/var/cache/pacman/pkg/` and does **not** automatically remove older or uninstalled versions. This behavior has some benefits:
 
-1. It allows to downgrade a package without the need to retrieve the previous version through other means, such as the Arch Linux Archive.
-2. A package that has been uninstalled can easily be reinstalled directly from the cache directory, not requiring a new download from the repository.
+1. You can **downgrade a package** without needing to fetch an older version from elsewhere (e.g., the [Arch Linux Archive](https://wiki.archlinux.org/title/Arch_Linux_Archive)).
+2. If a package was **uninstalled**, it can be reinstalled directly from the cache — no need to redownload it from the repository.
 
-However, it is necessary to deliberately clean up the cache periodically to prevent the directory to grow indefinitely in size.
+However, it's important to **manually clean the cache periodically**, as it can grow significantly over time.
 
-The [paccache](https://man.archlinux.org/man/paccache.8) script, provided within the [pacman-contrib](https://archlinux.org/packages/?name=pacman-contrib) package, deletes all cached versions of installed and uninstalled packages, except for the most recent three, by default:
+To manage this, you can use the [`paccache`](https://man.archlinux.org/man/paccache.8) script, provided by the [`pacman-contrib`](https://archlinux.org/packages/?name=pacman-contrib) package. By default, it removes old cached versions of both installed and uninstalled packages, keeping only the **three most recent versions**:
 
-`# paccache -r`
+```
+paccache -r
+```
 
-Enable and start paccache.timer to discard unused packages weekly. 
+If you want to automate the cleanup, you can enable and start the `paccache.timer` systemd unit to **run weekly** and discard unused packages automatically:
+
+```
+systemctl enable --now paccache.timer
+```
