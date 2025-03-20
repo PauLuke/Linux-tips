@@ -15,3 +15,5 @@ abbr up "paru && flatpak update"
 ```
 
 As you can see, the syntax is: the abbr command, followed by the abbreviation you would like to use and, finally, the actual command it should expand to.
+
+Credits: https://layer22.com/fish-abbreviations
