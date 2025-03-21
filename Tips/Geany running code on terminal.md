@@ -4,4 +4,6 @@ To make Geany run your code using the terminal, you can configure it by changing
 
 Go to: Edit > Preferences > Tools > Terminal
 
+```
 kitty --hold bash -c "chmod +x %c && %c"
+```
