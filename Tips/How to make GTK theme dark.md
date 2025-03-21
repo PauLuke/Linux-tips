@@ -1,3 +1,4 @@
+gsettings set org.gnome.desktop.interface icon-theme Adwaita
 
 1. Install the dark GTK themes:
  
