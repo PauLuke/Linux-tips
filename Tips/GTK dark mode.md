@@ -49,10 +49,10 @@ For users who prefer a graphical interface, you can use the `gnome-tweaks` tool.
 
 ## Credits:
 
-(Arch Wiki: Dark mode switching)[https://wiki.archlinux.org/title/Dark_mode_switching]
+Arch Wiki on Dark mode switching --> https://wiki.archlinux.org/title/Dark_mode_switching
 
-(Arch Wiki: GTK)[https://wiki.archlinux.org/title/GTK#Configuration]
+Arch Wiki on GTK configuration --> https://wiki.archlinux.org/title/GTK#Configuration
 
-(Github discussion)[https://github.com/hyprwm/Hyprland/discussions/5867]
+Github discussion on Hyprland repo --> https://github.com/hyprwm/Hyprland/discussions/5867
 
 
