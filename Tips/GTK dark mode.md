@@ -2,7 +2,7 @@
 
 To change the light/dark mode, you have to change the used theme. 
 
-# 1. Basic theme configuration:
+## 1. Basic theme configuration:
 
 To switch themes instantly for running programs we will use **gsettings**. For desktops running with Wayland, **gsettings** is queried. To query **gsettings** configuration, GTK requires the Settings XDG Desktop Portal, provided by `xdg-desktop-portal-gtk`, to be running. So you may need to install this packge. 
 
