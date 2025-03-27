@@ -1,16 +1,16 @@
 - AUR helper: `paru` or `yay`
-- Browser: `brave` or `firefox`
+- Browser: `zen-browser` or `brave`
 - Note taking: `obsidian` (plus Remotly Save plugin) or `anytype` (currently unstable)
-- Password management: `proton-pass`
+- Password management: `keepassxc`
 - Ebook reader: `foliate`
 - Ebooks and comics: `calibre` and `kcc`
 - Torrent client: `qbittorrent`
-- Video player: `mpv` or `vlc`
+- Video player: `vlc`
 - Image editor: `gimp` and `inkscape`
 - Video editor: `shotcut`
 - File transfer: `localsend`
 - Shell: `fish`
-- Text editor: `gnome-text-editor` or `gedit`
+- GUI Text editor: `gedit`
 - Terminal text editor: `micro`
 - File manager: `nautilus`
 - Image viewer: `eog` (eyes of gnome) or `gthumb`
