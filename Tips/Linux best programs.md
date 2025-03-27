@@ -14,6 +14,6 @@
 - Terminal text editor: `micro`
 - File manager: `nautilus`
 - Image viewer: `eog` (eyes of gnome) or `gthumb`
-- Power management: TLP
+- Power management: `auto-cpufreq`
 - Image upscale: `upscayl`
 - Audio control: `pavucontrol`
