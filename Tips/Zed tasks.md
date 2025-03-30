@@ -1,38 +1,26 @@
-I started relearning C after a long time afar from the language. I didn't wanted to do what I did back then when I manualy compiled and ran my code every time, so I begin looking for a way to do this automaticaly. I found that the solution in Zed is to create a task, which is basically a command, and run it trough a keybiding. He is the actual explanation of what a task is (from Zed's website):
+# Zed tasks
+
+## The Problem
+
+Nowadays, I'm relearning C. When I first learned it, I remember having to manually compile and run my code every time. This became tedious over time, so I decided to look for a way to automate the process. Currently, I'm using Zed as my editor, and I found that the best solution is to create a task—essentially a command that Zed can execute, triggered by a keybinding.
+
+---
+Here’s how Zed describes tasks:
 
 > Zed supports ways to spawn (and rerun) commands using its integrated terminal to output the results. These commands can read a limited subset of Zed state (such as a path to the file currently being edited or selected text).
 
 Here are some examples of the Zed states you can use:
 
-- **ZED_FILE:** absolute path of the currently opened file (e.g. /Users/my-user/path/to/project/src/main.rs)
-- **ZED_FILENAME:** filename of the currently opened file (e.g. main.rs)
-- **ZED_DIRNAME:** absolute path of the currently opened file with file name stripped (e.g. /Users/my-user/path/to/project/src)
+- **ZED_FILE:** absolute path of the currently opened file (e.g. `/Users/my-user/path/to/project/src/main.rs`)
+- **ZED_FILENAME:** filename of the currently opened file (e.g. `main.rs`)
+- **ZED_DIRNAME:** absolute path of the currently opened file with file name stripped (e.g. `/Users/my-user/path/to/project/src)
+---
 
-~/.config/zed/keymap.json
+## The solution 
 
-```
-{
-    "context": "Workspace",
-    "bindings": {
-      // "shift shift": "file_finder::Toggle"
-      "ctrl-t": "terminal_panel::ToggleFocus",
-      "alt-g": ["task::Spawn", { "task_name": "run" }]
-    }
-  },
-```
+I decided I would setup something that would allow me to run code in any programming language I use, not just C. So I created a shell script that takes Zed’s state variables as arguments and executes the appropriate command based on the file type.
 
-~/.config/zed/tasks.json
-
-```
-[
-	{
-		"label": "run",
-		"command": "~/scripts/run.sh $ZED_DIRNAME $ZED_FILENAME $ZED_FILE"
-	}
-]
-```
-
-Script
+Here’s the script:
 
 ```
 #!/bin/bash
@@ -60,6 +48,33 @@ esac
 
 echo ""
 ```
+Next, I needed to integrate this script into Zed. I created a `task.json` file in `~/.config/zed/` with the following content:
+
+```
+[
+  {
+    "label": "run",
+    "command": "~/scripts/run.sh $ZED_DIRNAME $ZED_FILENAME $ZED_FILE"
+    }
+]
+```
+
+Then, I added a keybinding in my `keymap.json` file to execute the task when pressing `Alt+G`:
+
+```
+{
+    "context": "Workspace",
+    "bindings": {
+        "ctrl-t": "terminal_panel::ToggleFocus",
+        "alt-g": ["task::Spawn", { "task_name": "run" }]
+    }
+}
+```
+
+## Conclusion
+
+With this setup, I can now run my code effortlessly with a single keypress in Zed, without manually compiling and executing files. This approach can easily be extended to support more languages by modifying the shell script
+
 
 ## Credits
 [Zed article on tasks](https://zed.dev/docs/tasks)
