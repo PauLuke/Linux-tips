@@ -13,7 +13,7 @@ Here are some examples of the Zed states you can use:
 
 - **ZED_FILE:** absolute path of the currently opened file (e.g. `/Users/my-user/path/to/project/src/main.rs`)
 - **ZED_FILENAME:** filename of the currently opened file (e.g. `main.rs`)
-- **ZED_DIRNAME:** absolute path of the currently opened file with file name stripped (e.g. `/Users/my-user/path/to/project/src)
+- **ZED_DIRNAME:** absolute path of the currently opened file with file name stripped (e.g. `/Users/my-user/path/to/project/src`)
 ---
 
 ## The solution 
