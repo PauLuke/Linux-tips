@@ -37,13 +37,25 @@ Script
 ```
 #!/bin/bash
 
-cd $1
+# Change to the specified directory
+cd "$1" || { echo "Failed to change directory to $1"; exit 1; }
 
 echo ""
 
+# Ensure a file argument is provided
+if [ -z "$2" ]; then
+    echo "Error: No file specified."
+    exit 1
+fi
+
 case "$2" in
-    *.c) clang -o "${2%.c}" $3 && ./"${2%.c}";;
-    *.py) python $3 ;;
+    *.c) 
+        executable="${2%.c}"
+        clang -o "$executable" "$2" $3 && "./$executable";;
+    *.py) 
+        python "$2" $3;;
+    *) 
+        echo "Error: Unsupported file type.";;
 esac
 
 echo ""
