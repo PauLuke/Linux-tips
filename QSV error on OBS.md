@@ -1,3 +1,7 @@
+# QSV error on OBS
+
+## 1. The error
+
 I installed OBS Studio on my new laptop (Intel i5-11400H + Nvidia GTX 1650), and when I tried to record, I encountered the following error:
 
 > Failed to start recording/streaming
@@ -10,6 +14,8 @@ To get a clearer picture of the problem, I launched OBS from the terminal. This 
 > [qsv encoder: 'msdk_impl'] Specified object/item/sync point not found. (MFX_ERR_NOT_FOUND)
 > 
 > [qsv encoder: 'simple_video_recording'] qsv failed to load
+
+## 2. The solution
 
 After searching online, I found that this issue is caused by the lack of drivers for the [Intel Quick Sync Video](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video) (QSV), a video encoding and decoding hardware core present in some Intel CPUs.
 
