@@ -1,4 +1,4 @@
-# Remove fish shell welcome mensage
+# Removing fish's welcome mensage
 
 The fish shell has a builtin function called "fish_greeting" that is reponsable for prompt the user with a greeting message every time he opens the terminal. In order to change that we should edit the function, so type:
 ```
