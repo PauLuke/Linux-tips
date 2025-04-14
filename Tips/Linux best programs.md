@@ -17,3 +17,4 @@
 - Power management: `auto-cpufreq`
 - Image upscale: `upscayl`
 - Audio control: `pavucontrol`
+- Notifications: `dunst`
