@@ -6,19 +6,39 @@ By default, Termux uses a home directory that’s hidden deep in your phone's fi
 
 ## 1. Open Termux.
 
-## 2. Edit the .bashrc file in your Termux home directory using your favorite terminal text editor (in my case, `micro`):
+Go to Termux app and open it
+
+Great addition! Here's a polished version of that section with clearer grammar, smoother flow, and formatting to match the tone and style of your tip:
+
+---
+
+## 2. Open your `.bashrc` file:
+
+The `.bashrc` file lives in Termux's default home directory. If it doesn’t exist yet, no problem — you can create it using the `touch` command, or just open it directly with your favorite text editor, which will automatically create it for you if needed.
+
+In this example, we'll use the **Micro** text editor:
+
 ```
 micro ~/.bashrc
 ```
 
-## 3. At the end of the file, add this line:
+Obs.: If you don’t have Micro installed, you can install it with:
+
+```
+pkg install micro
+```
+
+## 3. At the end of the `.bashrc` file, add this line:
+
 ```
 cd /storage/emulated/0/
 ```
 
 ## 4. Save and exit the editor.
 
-## Conclusion
+Make sure you have saved the file before exiting.
+
+## Explanation
 
 What you're doing here is simply adding a command to your .bashrc file that opens the desired directory. The commands in .bashrc are executed automatically every time a new session starts, so from now on, when you open Termux, you'll land directly in `/storage/emulated/0/` (your phone's "home directory") — making it much easier to access and manage your files.
 
