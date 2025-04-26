@@ -9,6 +9,6 @@ To resolve this, you can force a clean rebuild of the package:
 paru -S --rebuild [package]
 ```
 
-Here I used *paru*, but the same can be done if you use *yay*.
+Here I used *paru*, but the same can be done with *yay*.
 
 **How forcing a rebuild fixes it:** When you use `--rebuild`, you’re telling *paru* (or *yay*) to ignore any previously cached build data and rebuild the package from scratch. It fetches the latest version of the PKGBUILD, re-downloads sources if needed, and compiles everything fresh — avoiding whatever leftover mess caused the failure.
