@@ -1,18 +1,18 @@
 - AUR helper: `paru` or `yay`
-- Browser: `zen-browser` or `brave`
+- Browser: `firefox`, `zen-browser` or `brave`
 - Note taking: `obsidian` (plus Remotly Save plugin) or `anytype` (currently unstable)
 - Password management: `keepassxc`
 - Ebook reader: `foliate`
 - Ebooks and comics: `calibre` and `kcc`
 - Torrent client: `qbittorrent`
-- Video player: `vlc`
+- Video player: `mpv` (plus [ModernZ](https://github.com/Samillion/ModernZ) plugin) or `vlc`
 - Image editor: `gimp` and `inkscape`
 - Video editor: `shotcut`
 - File transfer: `localsend`
-- Shell: `fish`
+- Shell: `zsh` or `fish`
 - GUI Text editor: `gedit`
-- Terminal text editor: `micro`
-- File manager: `nautilus`
+- Terminal text editor: `nvim` or `gvim`
+- File manager: `nemo` or `nautilus`
 - Image viewer: `eog` (eyes of gnome) or `gthumb`
 - Power management: `auto-cpufreq`
 - Image upscale: `upscayl`
