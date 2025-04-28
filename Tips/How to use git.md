@@ -7,7 +7,7 @@ Obs.: if you are trying to clone a private repository or push a repository to gi
 
 After you edit or add new files/directories you should *add* all changes:
 ```
-git add *
+git add .
 ```
 This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
 
