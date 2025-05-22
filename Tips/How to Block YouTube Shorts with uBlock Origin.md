@@ -1,6 +1,6 @@
 # How to Block YouTube Shorts with uBlock Origin
 
-1. Install the uBlock Origin Extension
+## 1. Install the uBlock Origin Extension
 
 First, install the uBlock Origin extension for your browser:
 
@@ -8,7 +8,7 @@ First, install the uBlock Origin extension for your browser:
 
 - For Firefox: Head to [Firefox Add-ons](https://addons.mozilla.org/) and search for “uBlock Origin”.
 
-2. Add the YouTube Shorts Filter
+## 2. Add the YouTube Shorts Filter
 
 Once installed:
 
