@@ -10,7 +10,7 @@ git clone https://github.com/ggml-org/whisper.cpp.git
 cd whisper.cpp
 ```
 
-## 3. Then, download one of the Whisper models converted in ggml format. For example:
+## 3. Then, download one of the Whisper [models](https://github.com/ggml-org/whisper.cpp/blob/master/models/README.md) converted in ggml format. For example:
 ```
 sh ./models/download-ggml-model.sh base.en
 ```
