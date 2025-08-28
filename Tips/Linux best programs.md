@@ -1,20 +1,24 @@
-- AUR helper: `paru` or `yay`
-- Browser: `firefox`, `zen-browser` or `brave`
+- AUR helper: `yay` or `paru`
+- Browser: `firefox` or `brave` (if you prefer to stay at the chromium side)
 - Note taking: `obsidian` (plus Remotly Save plugin) or `anytype` (currently unstable)
 - Password management: `keepassxc`
 - Ebook reader: `foliate`
-- Ebooks and comics: `calibre` and `kcc`
+- Comics reader: `MComix`
+- Ebooks and comics converter tools: `calibre` and `kcc` ([github](https://github.com/ciromattia/kcc))
 - Torrent client: `qbittorrent`
 - Video player: `mpv` (plus [ModernZ](https://github.com/Samillion/ModernZ) plugin) or `vlc`
-- Image editor: `gimp` and `inkscape`
+- Image editor: `gimp` and `inkscape` (with you want to create vectors)
 - Video editor: `shotcut`
 - File transfer: `localsend`
-- Shell: `zsh` or `fish`
+- Shell: `zsh` (plus the following plugins: zsh-autosuggestions, zsh-history-substring-search, zsh-syntax-highlighting and zsh-auto-notify) or `fish`
 - GUI Text editor: `gedit`
-- Terminal text editor: `nvim` or `gvim`
-- File manager: `nemo` or `nautilus`
+- Terminal text editor: `nvim` and `micro` (useful to easily modify protected files)
+- File manager: `nemo` (more lightweight) or `nautilus`
 - Image viewer: `eog` (eyes of gnome) or `gthumb`
-- Power management: `auto-cpufreq`
-- Image upscale: `upscayl`
+- Power management: `auto-cpufreq` ([github](https://github.com/AdnanHodzic/auto-cpufreq))
+- Fan control: `nbfc` ([github](https://github.com/hirschmann/nbfc))
+- Image upscaler: `upscayl`
 - Audio control: `pavucontrol`
 - Notifications: `dunst`
+- AppImage manager: `gearlever` ([github](https://github.com/mijorus/gearlever))
+- Launcher: `rofi` or `rofi-wayland` (my preference over wofi)
