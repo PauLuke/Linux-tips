@@ -1,6 +1,6 @@
 - AUR helper: `yay` or `paru`
 - Browser: `firefox` or `brave` (if you prefer to stay at the chromium side)
-- Note taking: `obsidian` (plus Remotly Save plugin) or `anytype` (currently unstable)
+- Note taking: `obsidian` (plus GitHub Sync or Remotly Save plugin) or `anytype` (currently unstable)
 - Password management: `keepassxc`
 - Ebook reader: `foliate`
 - Comics reader: `MComix`
