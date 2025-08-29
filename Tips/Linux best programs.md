@@ -22,3 +22,4 @@
 - Notifications: `dunst`
 - AppImage manager: `gearlever` ([github](https://github.com/mijorus/gearlever))
 - Launcher: `rofi` or `rofi-wayland` (my preference over wofi)
+- Music player: `lollypop`
