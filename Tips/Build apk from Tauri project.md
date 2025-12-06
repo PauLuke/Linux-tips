@@ -59,7 +59,7 @@ Then
 ```
 cd tauri-app
 npm install
-npm run tauri dev
+npm run tauri android init
 ```
 
 Inside your project you will find a directory called "src". This is the place to put your web project files.
