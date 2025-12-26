@@ -24,6 +24,12 @@ Then, load a configuration. For example:
 sudo nbfc config --set "Acer Nitro AN515-57"
 ```
 
+Enable the service to start automatically on boot:
+
+```
+sudo systemctl enable nbfc_service
+```
+
 Now start the service:
 
 ```
