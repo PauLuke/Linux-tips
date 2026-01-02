@@ -1,0 +1,3 @@
+```
+loginctl terminate-user $USER
+```
