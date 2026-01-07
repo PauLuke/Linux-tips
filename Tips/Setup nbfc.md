@@ -1,42 +1,48 @@
-From the AUR install `nbfc-linux`.
+Install `nbfc-linux` from the AUR. Although its not the original implementation, it offers several advantages over it. Thats why I strongly recommend `nbfc-linux` over the `nbfc` package.
 
-Download the latest configuration files from the internet:
+Update to the latest configuration files:
 
 ``` 
 sudo nbfc update
 ```
 
-Try to find a configuration automatically:
+Attempt to automatically apply a suitable configuration:
 
 ```
 sudo nbfc config --set auto
 ```
 
-If the previous command didn't work, list the recommended option:
+If automatic detection fails, identify your notebook model:
+
+```
+sudo dmidecode -s system-product-name
+```
+
+List the recommended configurations and select the one that most closely matches your model:
 
 ```
 nbfc config --recommend
 ```
 
-Then, load a configuration. For example:
+Manually set the chosen configuration. For example:
 
 ```
 sudo nbfc config --set "Acer Nitro AN515-57"
 ```
 
-Enable the service to start automatically on boot:
+Enable the NBFC service to start automatically at boot:
 
 ```
 sudo systemctl enable nbfc_service
 ```
 
-Now start the service:
+Start the service:
 
 ```
 nbfc start
 ```
 
-If you want to force a especific fan speed use:
+To manually force a specific fan speed, use:
 
 ```
 nbfc set -s <PERCENTAGE>
