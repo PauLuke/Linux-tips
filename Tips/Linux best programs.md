@@ -16,7 +16,7 @@
 - File manager: `nemo` (lightweight and fast) or `nautilus`
 - Image viewer: `eog` (eyes of gnome) or `gthumb`
 - Power management: `auto-cpufreq` ([github](https://github.com/AdnanHodzic/auto-cpufreq))
-- Fan control: `nbfc-linux` ([github](https://github.com/hirschmann/nbfc](https://github.com/nbfc-linux/nbfc-linux))
+- Fan control: `nbfc-linux` ([github](https://github.com/nbfc-linux/nbfc-linux))
 - Image upscaler: `upscayl`
 - Audio control: `pavucontrol`
 - Notifications: `dunst`
