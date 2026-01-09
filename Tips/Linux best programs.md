@@ -1,25 +1,27 @@
 - AUR helper: `yay` or `paru`
 - Browser: `firefox` or `brave` (if you prefer to stay at the chromium side)
-- Note taking: `obsidian` (plus GitHub Sync or Remotly Save plugin) or `anytype` (currently unstable)
+- Note taking: `obsidian` (plus GitHub Sync) or `anytype` (currently unstable)
 - Password management: `keepassxc`
 - Ebook reader: `foliate`
 - Comics reader: `MComix`
 - Ebooks and comics converter tools: `calibre` and `kcc` ([github](https://github.com/ciromattia/kcc))
 - Torrent client: `qbittorrent`
 - Video player: `mpv` (plus [ModernZ](https://github.com/Samillion/ModernZ) plugin) or `vlc`
-- Image editor: `gimp` and `inkscape` (with you want to create vectors)
+- Image editor: `gimp` and `inkscape` (to create vectors)
 - Video editor: `shotcut`
 - File transfer: `localsend`
 - Shell: `zsh` (plus the following plugins: zsh-autosuggestions, zsh-history-substring-search, zsh-syntax-highlighting and zsh-auto-notify) or `fish`
 - GUI Text editor: `gedit`
 - Terminal text editor: `nvim` and `micro` (useful to easily modify protected files)
-- File manager: `nemo` (more lightweight) or `nautilus`
+- File manager: `nemo` (lightweight and fast) or `nautilus`
 - Image viewer: `eog` (eyes of gnome) or `gthumb`
 - Power management: `auto-cpufreq` ([github](https://github.com/AdnanHodzic/auto-cpufreq))
-- Fan control: `nbfc` ([github](https://github.com/hirschmann/nbfc))
+- Fan control: `nbfc-linux` ([github]([https://github.com/hirschmann/nbfc](https://github.com/nbfc-linux/nbfc-linux)))
 - Image upscaler: `upscayl`
 - Audio control: `pavucontrol`
 - Notifications: `dunst`
 - AppImage manager: `gearlever` ([github](https://github.com/mijorus/gearlever))
 - Launcher: `rofi` or `rofi-wayland` (my preference over wofi)
 - Music player: `lollypop`
+- Bar: `noctalia-shell`, `waybar` or `ashell` (small community and some bugs)
+- Brightness and audio visual feedback: `swayosd` ([github](https://github.com/ErikReider/SwayOSD))
